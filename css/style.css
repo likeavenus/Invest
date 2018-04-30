@@ -1,0 +1,62 @@
+@font-face {
+  font-family: PFDinTextPro-light;
+  src: url('../fonts/pfdintextpro-light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+body h1,h2,h3{
+  font-family: PFDinTextPro-light;
+  font-weight: 500;
+}
+header {
+  background-image: url(../img/bg.jpg);
+  width: 100%;
+  height: 100%;
+  -webkit-background-size: cover;
+  background-size: cover;
+  height: 700px;
+}
+.header__container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+.header__title-box {
+}
+.header__title {
+  margin-top: 0;
+  padding-top: 200px;
+  font-size: 38px;
+}
+.header__choice {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: center;
+}
+.circle {
+  background: url(../img/circle.png) no-repeat;
+  width: 347px;
+  height: 347px;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+  margin: 10px;
+  -webkit-transition: background-image;
+  -o-transition: background-image;
+  transition: background-image;
+}
+.circle:hover {
+  background-image: url(../img/hover.png);
+}
+.circle__title {
+  -ms-align-self: center;
+  align-self: center;
+}
