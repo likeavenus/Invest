@@ -110,7 +110,7 @@ main {
   background: url(../img/bgbottom.jpg) no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
-  padding-bottom: 240px;
+  padding-bottom: 280px;
 }
 .main__container {
   max-width: 1200px;
