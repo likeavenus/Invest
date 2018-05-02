@@ -14,19 +14,19 @@ header {
   height: 100%;
   -webkit-background-size: cover;
   background-size: cover;
-  height: 700px;
+  height: 100%;
 }
 .header__container {
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
   text-align: center;
+  padding-top: 130px;
 }
 .header__title-box {
 }
 .header__title {
   margin: 0 0 70px 0;
-  padding-top: 130px;
   font-size: 38px;
   font-weight: 550;
 }
@@ -37,6 +37,7 @@ header {
   display: -o-flex;
   display: flex;
   justify-content: center;
+  margin-bottom: 130px;
 }
 .circle {
   background: url(../img/circle.png) no-repeat;
@@ -109,6 +110,7 @@ main {
   background: url(../img/bgbottom.jpg) no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
+  padding-bottom: 240px;
 }
 .main__container {
   max-width: 1200px;
