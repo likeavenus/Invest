@@ -22,6 +22,7 @@ header {
   margin: 0 auto;
   text-align: center;
   padding-top: 130px;
+  position: relative;
 }
 .header__title-box {
 }

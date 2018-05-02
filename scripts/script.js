@@ -1,8 +1,9 @@
 $(document).ready(function(){
   $('.circle').click(function(){
-    $(this).animate({
-      position: 'absolute',
-      bottom: 'toggle',
+    $('.header__container').animate({
+      bottom: '400px'
     })
+    $('.circle__img').toggle();
+    $('main').toggle();
   });
 });
