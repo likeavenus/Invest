@@ -153,6 +153,24 @@ main {
 }
 .tutorial {
 }
+.tutorial__list {
+  padding-left: 0;
+}
+.tutorial__number {
+  color: #00b596;
+  font-size: 30px;
+  margin: 5px;
+}
+.tutorial__list-item {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  -ms-align-items: center;
+  align-items: center;
+  list-style: none;
+}
 
 
 
