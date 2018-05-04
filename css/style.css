@@ -128,6 +128,7 @@ main {
   margin: 0 auto;
   line-height: 1.15;
   padding-top: 50px;
+  display: none;
 }
 
 .main__title {
@@ -225,7 +226,6 @@ main {
 
 @keyframes ti {
   100% {
-    background: yellow;
     opacity: .2;
   }
 }

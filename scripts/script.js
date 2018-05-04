@@ -13,7 +13,6 @@ $(document).ready(function(){
   });
   $('.b').on("click", function(e) {
     e.preventDefault();
-
     elem1.hide();
     elem2.slideToggle().addClass("toggle");
     elem3.hide();
@@ -21,9 +20,7 @@ $(document).ready(function(){
 })
 
 $('.c').on("click", function(e) {
-
     e.preventDefault();
-
      elem1.hide();
      elem2.hide();
      elem3.slideToggle().addClass("toggle");
@@ -32,7 +29,6 @@ $('.c').on("click", function(e) {
 })
 
 $(document).on('click', '.toggle', function() {
-
     elem1.hide();
     elem2.hide();
     elem3.hide();
