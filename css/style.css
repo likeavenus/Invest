@@ -194,18 +194,6 @@ main {
   font-weight: bold;
 }
 
-/*.header__choice.new {
-  position: absolute;
-  top: 20px;
-  width: 50%;
-  left: 0;
-  right: 0;
-  margin: auto;
-  height: 50px;
-  opacity: .1;
-  pointer-events: none;
-}*/
-
 .header__choice.new h2{
   border-radius: 0;
   width: auto;
@@ -217,7 +205,7 @@ main {
 .header__choice.new li a {
   font-size: 22px;
   font-variant: small-caps;
-  height: 50px;
+/*  height: 50px;*/
 }
 
 .toggle {
