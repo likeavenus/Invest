@@ -20,11 +20,6 @@ header {
 .change-bgr {
   background-image: url(../img/mobile-bgr.png);
 }
-/*@media (max-width: 400px) {
-  header {
-    background-image: url(../img/mobile-bgr.png);
-  }
-}*/
 .header__container {
   max-width: 1200px;
   width: 100%;
@@ -33,7 +28,7 @@ header {
   padding-top: 130px;
   position: relative;
 }
-@media (max-width: 400px) {
+@media (max-width: 415px) {
   .header__container {
     padding-top: 55px;
   }
@@ -54,7 +49,7 @@ header {
   justify-content: center;
   margin-bottom: 130px;
 }
-@media (max-width: 400px) {
+@media (max-width: 415px) {
   .header__choice {
     -webkit-flex-direction: column;
     -moz-flex-direction: column;
@@ -83,7 +78,7 @@ header {
   position: relative;
   cursor: pointer;
 }
-@media (max-width: 400px) {
+@media (max-width: 415px) {
   .circle {
     display: none;
   }
@@ -172,7 +167,7 @@ main {
   background-size: cover;
   padding-bottom: 250px;
 }
-@media (max-width: 400px) {
+@media (max-width: 415px) {
   main {
     display: none;
   }
@@ -188,7 +183,7 @@ main {
   padding-top: 50px;
   display: none;
 }
-@media (max-width: 400px) {
+@media (max-width: 415px) {
   .main__container {
     display: none;
   }
@@ -220,7 +215,7 @@ main {
 .main__info,.tutorial {
   width: 620px;
 }
-@media (max-width: 400px) {
+@media (max-width: 415px) {
   .main__info,.tutorial {
     width: 100%;
   }
@@ -263,7 +258,7 @@ main {
   display: inline-block;
   font-weight: bold;
 }
-@media (max-width: 400px) {
+@media (max-width: 415px) {
   .tutorial__button {
     margin-bottom: 345px;
   }
@@ -295,7 +290,7 @@ main {
 .mobile {
   display: none;
 }
-@media (max-width: 400px) {
+@media (max-width: 415px) {
   .mobile {
     display: -webkit-flex;
     display: -moz-flex;
@@ -331,7 +326,7 @@ main {
   display: none;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 415px) {
   .mobile-container {
     display: none;
     max-width: 339px;
