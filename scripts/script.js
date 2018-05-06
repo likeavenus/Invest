@@ -34,4 +34,5 @@ $(document).on('click', '.toggle', function() {
     elem3.hide();
     elem4.removeClass('new');
   })
+
 });

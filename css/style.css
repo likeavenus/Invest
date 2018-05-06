@@ -10,10 +10,11 @@ body h1,h2,h3,p,ul,a{
 }
 header {
   background-image: url(../img/bg.jpg);
+  background-position: 50%;
   width: 100%;
+  height: 100%;
   -webkit-background-size: cover;
   background-size: cover;
-  height: 100%;
   position: relative;
 }
 .header__container {
@@ -23,6 +24,11 @@ header {
   text-align: center;
   padding-top: 130px;
   position: relative;
+}
+@media (max-width: 400px) {
+  .header__container {
+    padding-top: 55px;
+  }
 }
 .header__title-box {
 }
@@ -39,6 +45,15 @@ header {
   display: flex;
   justify-content: center;
   margin-bottom: 130px;
+}
+@media (max-width: 400px) {
+  .header__choice {
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    flex-direction: column;
+  }
 }
 .circle {
   background: url(../img/circle.png) no-repeat;
@@ -59,6 +74,11 @@ header {
   border: 4px solid transparent;
   position: relative;
   cursor: pointer;
+}
+@media (max-width: 400px) {
+  .circle {
+    display: none;
+  }
 }
 .circle__title {
   font-size: 28px;
@@ -106,6 +126,31 @@ header {
   height: 84px;
   background-position: -10px -10px;
 }
+.mobile-nav__icon {
+  background-image: url(../sprites/css_mobile-sprts.png);
+  display: inline-block;
+  vertical-align: middle;
+}
+.monitor {
+  width: 35px;
+  height: 28px;
+  background-position: -60px -10px;
+}
+.keys {
+  width: 34px;
+  height: 28px;
+  background-position: -10px -66px;
+}
+.dude {
+  width: 30px;
+  height: 36px;
+  background-position: -10px -10px;
+}
+.arrow {
+  width: 19px;
+  height: 11px;
+  background-position: -64px -66px;
+}
 /*icons end*/
 
 .circle__title {
@@ -119,6 +164,11 @@ main {
   background-size: cover;
   padding-bottom: 250px;
 }
+@media (max-width: 400px) {
+  main {
+    background: none;
+  }
+}
 .main--show {
   display: block;
 }
@@ -130,7 +180,11 @@ main {
   padding-top: 50px;
   display: none;
 }
-
+@media (max-width: 400px) {
+  .main__container {
+    display: none;
+  }
+}
 .main__title {
   display: -webkit-flex;
   display: -moz-flex;
@@ -157,6 +211,11 @@ main {
 }
 .main__info,.tutorial {
   width: 620px;
+}
+@media (max-width: 400px) {
+  .main__info,.tutorial {
+    width: 100%;
+  }
 }
 .main__info-text,.tutorial {
   font-size: 19px;
@@ -217,6 +276,63 @@ main {
     opacity: .2;
   }
 }
+/*мобильная версия (основа)*/
+.mobile {
+  display: none;
+}
+@media (max-width: 400px) {
+  .mobile {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    flex-direction: column;
+    -ms-align-items: center;
+    align-items: center;
+  }
+}
+.mobile__menu {
+  background-image: url(../img/bgm.png);
+  max-width: 350px;
+  width: 95%;
+  height: 68px;
+  margin-bottom: 15px;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  -ms-align-items: center;
+  align-items: center;
+  justify-content: space-around;
+  cursor: pointer;
+}
+.mobile-container {
+  display: none;
+}
 
+@media (max-width: 400px) {
+  .mobile-container {
+    display: block;
+    max-width: 339px;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+.mobile-nav {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  -ms-align-items: center;
+  align-items: center;
+  background-image: url(../img/mobile-a.png);
+}
 
 
