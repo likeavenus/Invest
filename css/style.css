@@ -318,7 +318,7 @@ main {
 
 @media (max-width: 400px) {
   .mobile-container {
-    display: block;
+    display: none;
     max-width: 339px;
     width: 100%;
     margin: 0 auto;
@@ -333,6 +333,12 @@ main {
   -ms-align-items: center;
   align-items: center;
   background-image: url(../img/mobile-a.png);
+}
+.mobile-nav__title {
+  font-size: 19px;
+}
+.arrow-rotate {
+  transform: rotate(180deg);
 }
 
 

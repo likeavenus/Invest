@@ -33,6 +33,19 @@ $(document).on('click', '.toggle', function() {
     elem2.hide();
     elem3.hide();
     elem4.removeClass('new');
-  })
+  });
+
+$('.first').click(function() {
+    $('.mobile-container').slideToggle('slow'),
+    $('.arrow').toggleClass('arrow-rotate');
+  });
+$('.second').click(function() {
+    $('.mobile-container').slideToggle('slow'),
+    $('.arrow').toggleClass('arrow-rotate');
+  });
+$('.third').click(function() {
+    $('.mobile-container').slideToggle('slow'),
+    $('.arrow').toggleClass('arrow-rotate');
+  });
 
 });
