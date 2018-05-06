@@ -353,6 +353,9 @@ main {
 .mobile-nav__title {
   font-size: 19px;
 }
+.mobile-nav__text {
+  width: 200px;
+}
 .arrow-rotate {
   transform: rotate(180deg);
 }
