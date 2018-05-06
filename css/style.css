@@ -17,6 +17,14 @@ header {
   background-size: cover;
   position: relative;
 }
+.change-bgr {
+  background-image: url(../img/mobile-bgr.png);
+}
+/*@media (max-width: 400px) {
+  header {
+    background-image: url(../img/mobile-bgr.png);
+  }
+}*/
 .header__container {
   max-width: 1200px;
   width: 100%;
@@ -166,7 +174,7 @@ main {
 }
 @media (max-width: 400px) {
   main {
-    background: none;
+    display: none;
   }
 }
 .main--show {
@@ -242,6 +250,9 @@ main {
   list-style: none;
   margin: 12px 0;
 }
+.btn {
+  margin-bottom: 250px;
+}
 .tutorual__button {
   text-decoration: none;
   color: #fff;
@@ -252,7 +263,11 @@ main {
   display: inline-block;
   font-weight: bold;
 }
-
+@media (max-width: 400px) {
+  .tutorial__button {
+    margin-bottom: 345px;
+  }
+}
 .header__choice.new h2{
   border-radius: 0;
   width: auto;
@@ -322,6 +337,7 @@ main {
     max-width: 339px;
     width: 100%;
     margin: 0 auto;
+    margin-bottom: 235px;
   }
 }
 .mobile-nav {

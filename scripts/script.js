@@ -36,16 +36,20 @@ $(document).on('click', '.toggle', function() {
   });
 
 $('.first').click(function() {
-    $('.mobile-container').slideToggle('slow'),
-    $('.arrow').toggleClass('arrow-rotate');
+    $('#first-mobile-c').slideToggle('slow'),
+    $('#arrow1').toggleClass('arrow-rotate'),
+    $('header').toggleClass('change-bgr');
   });
+
 $('.second').click(function() {
-    $('.mobile-container').slideToggle('slow'),
-    $('.arrow').toggleClass('arrow-rotate');
+    $('#second-mobile-c').slideToggle('slow'),
+    $('#arrow2').toggleClass('arrow-rotate'),
+    $('header').toggleClass('change-bgr');
   });
 $('.third').click(function() {
-    $('.mobile-container').slideToggle('slow'),
-    $('.arrow').toggleClass('arrow-rotate');
+    $('#third-mobile-c').slideToggle('slow'),
+    $('#arrow3').toggleClass('arrow-rotate'),
+    $('header').toggleClass('change-bgr');
   });
 
 });
